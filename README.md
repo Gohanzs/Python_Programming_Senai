@@ -1,1 +1,1 @@
-# Programa-o-em-Python-Senai-60h
+# Python programming at Senai
