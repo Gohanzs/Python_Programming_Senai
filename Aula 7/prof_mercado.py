@@ -24,8 +24,8 @@ print('***' * 20)
 
 
 
-produto1 = int(input('Digite o ID do produto: '))
-carrinho.append(lista_prod[produto1])
+produto1 = int(input('Digite o ID do produto: ')) # 
+carrinho.append(lista_prod[produto1]) # Adiciona a lista do prod a função que esta no parentes rosa é o id do produto
 meu_valor.append(lista_valores[produto1])
 print('SEUS PRODUTOS - ', carrinho)
 total = sum(meu_valor)
@@ -50,6 +50,6 @@ print('Total R$', total )
 formas_pagamentos = ['pix', 'cartão de credito', 'cartão de debito']
 escolhe_forma = input('Digite sua forma de pagamento:')
 
-indice = formas_pagamentos.index(escolhe_forma)
+indice = formas_pagamentos.index(escolhe_forma) # descobre o indice da forma de pagamento 
 print('Forma de pagamento:', formas_pagamentos[indice])
 print('Obrigado, volte sempre!')

@@ -1,4 +1,4 @@
-#Aula 7
+    #Aula 7
 
 #Cria lista sozinho
 l = list(range(1,200,10))
